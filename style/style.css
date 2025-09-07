@@ -111,7 +111,10 @@
     font-style: italic;
 }
 body {
-    background-color: #e5e5e5;
+    background-color: #e8e5e5;
+}
+section {
+    background: #f3f3f3;
 }
 
 .head-container {
@@ -134,6 +137,7 @@ body {
     width: 471px;
     height: 84px;
     font-size: 18px;
+    font-family: poppins;
     color: #3e3e3e;
     margin-top: 15px;
 }
@@ -144,12 +148,148 @@ button {
     border-radius: 5px;
     background-color: #ff5959;
     font-size: 16px;
-    margin-top: 19px;
     font-weight: 600;
     color: #ffffff;
     border: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 img {
     width: 426px;
     height: 426px;
+}
+.mission-container {
+    width: 1128px;
+    height: 494px;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.container-1 {
+    display: flex;
+    gap: 24px;
+    margin-top: 50px;
+}
+.mission-1 {
+    width: 600px;
+    height: 330px;
+    border-radius: 26px;
+    background: #4f9da629;
+    padding: 20px;
+}
+.mission-2 {
+    width: 600px;
+    height: 330px;
+    border-radius: 26px;
+    background: #ff595928;
+    padding: 20px;
+}
+.mission-3 {
+    width: 600px;
+    height: 330px;
+    border-radius: 26px;
+    background: #fff4d6;
+    padding: 20px;
+}
+/* shared tag */
+
+.title {
+    width: 654px;
+    height: 70px;
+    font-size: 48px;
+    font-weight: bold;
+    font-family: poppins;
+    margin: 0 auto;
+}
+.title-2 {
+    width: 335px;
+    height: 108px;
+    font-size: 36px;
+    font-weight: bold;
+    font-family: poppins;
+    color-scheme: #333333;
+}
+.btn {
+    width: 243px;
+    height: 48px;
+    border-radius: 5px;
+}
+.image {
+    width: 141px;
+    height: 141px;
+}
+
+.banner-description {
+    width: 654px;
+    height: 120px;
+    font-size: 18px;
+    font-family: poppins;
+    color: #3e3e3e;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+    margin-top: 86px;
+}
+.shap {
+    position: absolute;
+    top: 1259px;
+    right: 1250px;
+    z-index: -1;
+}
+.shap-2 {
+    position: absolute;
+    top: 1780px;
+    left: 1220px;
+    z-index: -1;
+}
+.container-2 {
+    display: flex;
+    gap: 24px;
+    margin-top: 50px;
+}
+.vacktor,
+.vacktor-1,
+.vacktor-2 {
+    position: absolute;
+}
+.vacktor {
+    top: 50px;
+}
+.vacktor-1 {
+    left: 80px;
+}
+.vacktor-2 {
+    bottom: 70px;
+    width: 77px;
+    height: 77px;
+}
+.picture {
+    width: 229px;
+    height: 459px;
+    border-radius: 16px;
+}
+.application-container {
+    width: 1128px;
+    height: 700px;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.application-title {
+    width: 579px;
+    height: 124px;
+    font-size: 45px;
+    font-weight: bold;
+    font-family: poppins;
+    margin: 0 auto;
+}
+.application-description {
+    width: 525px;
+    height: 129px;
+    font-size: 18px;
+    font-family: poppins;
+    color: #3e3e3e;
+    margin-top: 90px;
 }
