@@ -111,10 +111,11 @@
     font-style: italic;
 }
 body {
-    background-color: #e8e5e5;
+    background-color: #e8d7d7;
 }
 section {
-    background: #f3f3f3;
+    background: #fff7f7;
+    z-index: -2;
 }
 
 .head-container {
@@ -292,4 +293,35 @@ img {
     font-family: poppins;
     color: #3e3e3e;
     margin-top: 90px;
+}
+footer {
+    width: 1880px;
+    height: 250px;
+    background-color: #000;
+}
+.footer-container {
+    text-align: center;
+    align-items: center;
+    width: 1440px;
+    height: 277px;
+    line-height: 50px;
+    margin: 0 auto;
+}
+.foot {
+    width: 342px;
+    height: 192px;
+    margin: 0 auto;
+    align-items: center;
+    padding: 20px;
+}
+
+.foot-title {
+    width: 306px;
+    height: 44px;
+    font-size: 36px;
+    margin: 0 auto;
+    color: #ffffff;
+}
+small {
+    color: #ffffff;
 }
