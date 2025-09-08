@@ -113,10 +113,10 @@
 body {
     background-color: #e8d7d7;
 }
-section {
+/* section {
     background: #fff7f7;
     z-index: -2;
-}
+} */
 
 .head-container {
     width: 100%;
@@ -339,27 +339,36 @@ small {
 }
 
 @media screen and (max-width: 576px) {
-    .head-container {
+    .head-container,
+    .application-title {
         width: 100%;
         height: 100%;
-        padding: 60px;
+        padding: 45px;
         margin-top: 10px;
         flex-direction: column;
         align-items: center;
         text-align: center;
     }
+    .picture {
+        margin-left: 95px;
+    }
+    button {
+        margin-top: 20px;
+        text-align: center;
+        align-items: center;
+    }
 }
 @media screen and (max-width: 576px) {
-    .mission-container {
+    .mission-container,
+    .application-container {
         width: 100%;
         height: 100%;
         align-items: center;
-        justify-content: center;
     }
     .container-1 {
         flex-direction: column;
         text-align: center;
-        justify-content: center;
+        margin-left: 85px;
     }
     .mission-1,
     .mission-2,
@@ -370,5 +379,54 @@ small {
         width: 90%;
         text-align: center;
         padding: 20px;
+        margin-left: 40px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .container,
+    .container-2 {
+        flex-direction: column;
+        text-align: center;
+        margin-left: 20px;
+    }
+    .image-1 {
+        margin-left: 20px;
+    }
+    .shap,
+    .shap-2 {
+        display: none;
+    }
+    .title-2 {
+        width: 100%;
+        height: 100%;
+        margin-left: 55px;
+    }
+    .banner-description,
+    .application-description {
+        width: 100%;
+        height: 100%;
+        margin-left: 55px;
+    }
+    .application-description {
+        margin-top: 0px;
+    }
+
+    .btn {
+        margin-left: 100px;
+    }
+    .know {
+        margin-left: 80px;
+    }
+}
+@media screen and (max-width: 576px) {
+    footer {
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+        margin-left: 50px;
+    }
+    .footer-container {
+        width: 100%;
+        height: 100%;
     }
 }
