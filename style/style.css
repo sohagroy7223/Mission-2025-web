@@ -155,6 +155,10 @@ button {
     margin-top: 20px;
     margin-bottom: 20px;
 }
+button:hover {
+    background-color: blue;
+    color: #ffffff;
+}
 img {
     width: 426px;
     height: 426px;
@@ -389,9 +393,7 @@ small {
         text-align: center;
         margin-left: 20px;
     }
-    .image-1 {
-        margin-left: 20px;
-    }
+
     .shap,
     .shap-2 {
         display: none;
@@ -428,5 +430,8 @@ small {
     .footer-container {
         width: 100%;
         height: 100%;
+    }
+    small {
+        width: 100%;
     }
 }
