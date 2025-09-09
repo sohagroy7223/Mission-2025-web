@@ -262,22 +262,7 @@ img {
     justify-content: space-around;
     align-items: center;
 }
-.vacktor,
-.vacktor-1,
-.vacktor-2 {
-    position: absolute;
-}
-.vacktor {
-    top: 50px;
-}
-.vacktor-1 {
-    left: 80px;
-}
-.vacktor-2 {
-    bottom: 70px;
-    width: 77px;
-    height: 77px;
-}
+
 .picture {
     width: 329px;
     height: 459px;
