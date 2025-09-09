@@ -158,6 +158,7 @@ button {
 button:hover {
     background-color: blue;
     color: #ffffff;
+    transition: 0.3s;
 }
 img {
     width: 426px;
@@ -421,6 +422,100 @@ small {
     }
 }
 @media screen and (max-width: 576px) {
+    footer {
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+        margin-left: 50px;
+    }
+    .footer-container {
+        width: 100%;
+        height: 100%;
+    }
+    small {
+        width: 100%;
+    }
+}
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    .head-container,
+    .application-title {
+        width: 100%;
+        height: 100%;
+        padding: 45px;
+        margin-top: 10px;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .picture {
+        margin-left: 95px;
+    }
+    button {
+        margin-top: 20px;
+        text-align: center;
+        align-items: center;
+    }
+}
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    .mission-container,
+    .application-container {
+        width: 100%;
+        height: 100%;
+        align-items: center;
+    }
+    .container-1 {
+        flex-direction: column;
+        text-align: center;
+        margin-left: 85px;
+    }
+    .mission-1,
+    .mission-2,
+    .mission-3 {
+        width: 90%;
+    }
+    .title {
+        width: 90%;
+        text-align: center;
+        padding: 20px;
+        margin-left: 40px;
+    }
+}
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    .container,
+    .container-2 {
+        width: 90%;
+        flex-direction: column;
+        text-align: center;
+        margin-left: 20px;
+    }
+
+    .shap,
+    .shap-2 {
+        display: none;
+    }
+    .title-2 {
+        width: 100%;
+        height: 100%;
+        margin-left: 55px;
+    }
+    .banner-description,
+    .application-description {
+        width: 100%;
+        height: 100%;
+        margin-left: 35px;
+    }
+    .application-description {
+        margin-top: 0px;
+    }
+
+    .btn {
+        margin-left: 100px;
+    }
+    .know {
+        margin-left: 80px;
+    }
+}
+@media screen and (min-width: 576px) and (max-width: 992px) {
     footer {
         width: 100%;
         height: 100%;
